@@ -11,6 +11,7 @@
 </head>
 
 <body>
+  
 
   <header id="masthead">
     <div class="container">
@@ -27,7 +28,19 @@
     <section class="main-section">
       <h1>Contact</h1>
 
-      <form id="contact-form">
+      <!-- <form id="contact-form" method="post" action="">
+        <input name="name" type="text" class="form-control" placeholder="Your Name"
+        required><br>
+        <input name="email" type="email" class="form-control" placeholder="Your Email" required><br>
+        <textarea name="message" class="form-control" placeholder="Message" rows="4" required></textarea><br>
+
+        <input type="submit" class="form-control submit" value="SEND MESSAGE">
+
+      </form> -->
+
+        
+      <!-- <form id="contact-form" method="POST"  action="email.php">
+
         <ul>
           <li>
             <label for="name">Name</label>
@@ -42,7 +55,19 @@
             <textarea id="message" name="message" required="required"></textarea>
           </li>
         </ul>
-        <input type="submit">
+        <input type="submit"> -->
+
+
+        <form action="send_form_email.php" method="POST">
+            <p>Name</p> <input type="text" name="name">
+            <p>Email</p> <input type="text" name="email">
+            <p>Message</p><textarea name="message" rows="6" cols="25"></textarea><br />
+            <input type="submit" value="Send"><input type="reset" value="Clear">
+            
+
+            
+
+        
  
       <div id="connect">
         <h3>Connect with Me</h3>
@@ -55,8 +80,8 @@
         
     </div>
 </div>
-      </form>
-
+      <!-- </form> -->
+    </form>
     </section>
 
   </div>

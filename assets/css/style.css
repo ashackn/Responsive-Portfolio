@@ -141,9 +141,8 @@ h3, h2 {
   position: relative;
   float: left;
   /* width: 274px; */
-  height: 300px;
-  width: 300px;
-
+  height: 330px;
+  width: 330px;
   margin: 20px 0 25px;
   overflow: auto;
 }
@@ -155,7 +154,7 @@ h3, h2 {
 .work img {
   width: 100%;
   border: 0 none;
-  opacity: 0.8;
+  /* opacity: 0.0; */
 }
 
 .work h3 {
@@ -262,19 +261,20 @@ header {
   /* text-align: center */
 }
 
-/* a
-{
-    text-decoration: none;
-    color: transparent;
+a:link {
+  color: white;
 }
 
-a:hover
-{
-    color:rgb(5, 5, 5);
-    text-align: center;  
-    cursor: url(), auto;
-} */
+/* visited link */
+a:visited {
+  color: white;
+}
 
-/* .custom {
-  cursor: url(images/my-cursor.png), auto;
-} */
+a:hover {
+  color: blue;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
