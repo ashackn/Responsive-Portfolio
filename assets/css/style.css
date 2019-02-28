@@ -70,7 +70,7 @@ h3 {
   height: 90px;
   font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 30px;
-  font-weight: 700;
+  font-weight: 680;
   line-height: 90px;
   color: #ffffff;
   text-align: center;
@@ -80,7 +80,8 @@ h3 {
 
 nav {
   float: right;
-  margin-top: 25px;
+  margin-top: 25px; 
+ 
 }
 
 nav a {
@@ -263,9 +264,10 @@ header {
 
 a:link {
   color: white;
+
 }
 
-/* visited link */
+/* visited link */ */
 a:visited {
   color: white;
 }
@@ -275,6 +277,7 @@ a:hover {
 }
 
 /* selected link */
-a:active {
+/* a:active {
   color: blue;
-}
+} */
+
