@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About | Ashlee Hackney</title>
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-  
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
 </head>
 
 <body>
@@ -15,9 +15,9 @@
     <div class="container">
       <a href="index.html" id="logo">Ashlee Hackney</a>
       <nav class="navtext">
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
+        <a href= "index.html" style="color:#999;">About</a>
+        <a href="portfolio.html" style="color:#999;">Portfolio</a>
+        <a href="contact.html" style="color:#999;">Contact</a>
       </nav>
     </div>
   </header>
@@ -32,10 +32,77 @@
 
       <p>I have a diverse set of skills, ranging from HTML, CSS, and JavaScript. I enjoy building everything from static web sites to rich interactive web sites. If you are a business or employer seeking a web presence, please get in touch with me.  </p>
 
-    </section>
 
+<br>
+<h1>My Skills</h1>
+ 
+<div class="skillbar clearfix " data-percent="85%">
+	<div class="skillbar-title" style="background: #d35400;"><span>HTML5</span></div>
+	<div class="skillbar-bar" style="background: #e67e22;"></div>
+	<div class="skill-bar-percent">85%</div>
+</div> <!-- End Skill Bar -->
+ 
+<div class="skillbar clearfix " data-percent="65%">
+	<div class="skillbar-title" style="background: #2980b9;"><span>CSS3</span></div>
+	<div class="skillbar-bar" style="background: #3498db;"></div>
+	<div class="skill-bar-percent">65%</div>
+</div> <!-- End Skill Bar -->
+ 
+<div class="skillbar clearfix " data-percent="40%">
+	<div class="skillbar-title" style="background: #2c3e50;"><span>jQuery</span></div>
+	<div class="skillbar-bar" style="background: #2c3e50;"></div>
+	<div class="skill-bar-percent">40%</div>
+</div> <!-- End Skill Bar -->
+ 
+<div class="skillbar clearfix " data-percent="50%">
+	<div class="skillbar-title" style="background: #46465e;"><span>JavaScript</span></div>
+	<div class="skillbar-bar" style="background: #5a68a5;"></div>
+	<div class="skill-bar-percent">50%</div>
+</div> <!-- End Skill Bar -->
+ 
+<div class="skillbar clearfix " data-percent="50%">
+	<div class="skillbar-title" style="background: #333333;"><span>MySQL</span></div>
+	<div class="skillbar-bar" style="background: #525252;"></div>
+	<div class="skill-bar-percent">50%</div>
+</div> <!-- End Skill Bar -->
+ 
+<div class="skillbar clearfix " data-percent="30%">
+	<div class="skillbar-title" style="background: #27ae60;"><span>React</span></div>
+	<div class="skillbar-bar" style="background: #2ecc71;"></div>
+	<div class="skill-bar-percent">30%</div>
+</div> <!-- End Skill Bar -->
+ 
+<div class="skillbar clearfix " data-percent="45%">
+	<div class="skillbar-title" style="background: #124e8c;"><span>Node.js</span></div>
+	<div class="skillbar-bar" style="background: #4288d0;"></div>
+	<div class="skill-bar-percent">45%</div>
+</div> 
+<SCRIPT>
+  jQuery(document).ready(function(){
+	jQuery('.skillbar').each(function(){
+		jQuery(this).find('.skillbar-bar').animate({
+			width:jQuery(this).attr('data-percent')
+		},6000);
+	});
+});
+</SCRIPT>
+<br>
+    <!-- <div id="main-container" class="container"> -->
+      <!-- <section class="main-section"> -->
+    <div id="connect">
+      <h3>Connect with Me</h3>
+      
+      &nbsp;<a href="https://github.com/ashackn" target="_blank"><img src="assets/images/github.jpg" height="45px"/></a>
+      &nbsp;
+      <a href="https://www.linkedin.com/in/
+      ashlee-h-b5b665175"
+      target="_blank"><img src="assets/images/LinkedIn-Gray.png" height="45px"/></a>
+      <!-- <a href="mailto:ashackn@gmail.com?Subject=Web%20Development%20Opportunity" target="_top"><img src="assets/images/email.png" height="45px"/></a>  -->
+       <!-- </section> -->
   </div>
-</div>
+  </div>
+</section>
+
   <footer>
     <div class="container">
       Copyright &copy; Ashlee Hackney 2018
