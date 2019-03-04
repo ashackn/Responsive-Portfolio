@@ -356,3 +356,12 @@ width:110px;
 }
 
 
+.work1 {
+  position: relative;
+  float: right;
+  /* width: 274px; */
+  height: 150px;
+  width: 330px;
+  margin: 20px 0 25px;
+  overflow: auto;
+}
